@@ -158,6 +158,7 @@ void NumberOfRounds(int number, int& Player1Wins, int& ComputerWins, int& DrawTi
 
 		PlayerChoice = ReadPlayerChoice("Your Choice: [1]:Rock, [2]:Paper, [3]:Scissors ? ");
 		computerChoice = ComputerRPSChoice();
+		//You can make a player 2 choice here instead of the computer
 
 		enWinner winnerValue = Winner(PlayerChoice, computerChoice);
 		string WinnerResult = WinnerToString(winnerValue);
