@@ -232,7 +232,7 @@ int main()
 {
 	srand((unsigned)time(NULL));
 
-	//final test
+	
 	StartGame();
 
 	return 0;
