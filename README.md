@@ -42,6 +42,12 @@ This is a simple console-based **Rock, Paper, Scissors** game written in C++. Th
 
 1. **Clone or download the project** to your local machine.
 2. **Compile the code** using any C++ compiler like `g++`:
+   
+```bash
+g++ rps_game.cpp -o rps_game
+./rps_game
+```
+
 
 ---
 
@@ -93,6 +99,8 @@ Do You Want to Play More ? [y]:yes, [n]:no ? n
 - ⚪ Yellow: Draw
 
 > Note: `system("color XY")` is Windows-specific and may not work on all systems.
+
+▶️ [Watch Demo Video](https://youtu.be/u5WOGHhUt8k)
 
 ---
 
